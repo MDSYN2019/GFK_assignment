@@ -1,6 +1,13 @@
 """
+Author: Sang Young Noh 
+----------------------
+
+Last Updated: 27/01/2022
+------------------------
+
 An extremely basic Flask API that returns the category 
-from a 
+from a known string for a main_text. 
+ 
 """
 
 import os
