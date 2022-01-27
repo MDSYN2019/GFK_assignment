@@ -7,6 +7,13 @@ Author: Sang Young Noh
 
 Description:
 
+Basic test functions to check the class functionality 
+of the RF ML Model. 
+
+Further checks can be added as the model is developed. 
+
+Unittests for the Flask microservice can be added here as an option as well.
+
 """
 
 # import GFKclass to test 
