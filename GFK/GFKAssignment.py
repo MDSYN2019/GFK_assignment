@@ -9,7 +9,8 @@ Description:
 
 Class to train the RF model of the GFK dataset, and returns the model. 
 
-This class also takes custom string inputs, 
+This class also takes custom string inputs, which are converted to the appropriate one-hot model 
+which can be read with the random forest model 
 
 """
 
