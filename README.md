@@ -13,7 +13,10 @@ transform the category data to a one-hot vector. This is then used as the ML
 input to a random forest model.
 
 Further improvements to this would be cross-validation models, and hyperparameter
-tuning for the model as part of the pipeline of the model as an example. 
+tuning for the model as part of the pipeline of the model as an example. Also, the class
+includes a failed attmempt at trying to make a word2vec vectorization of the columns, which,
+given a longer description and a contextual description for each category, would be much more suitable
+for this product.
 
 # 
 
