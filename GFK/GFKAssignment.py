@@ -251,9 +251,7 @@ class GFKTaskMLModelGenerator():
             for entry in modified_tokenized_string:
                 if onehotentry == entry: # if we have a matching string, then we add a counter
                     Counter += 1 
-            OneHotString.append(Counter) # append as an element to the one-hot vector 
-        
-        OneHotStringOutput = [entry for entry in OneHotString]
+            OneHotString.append(Counter) # append as an element to the one-hot vector         
         return [OneHotString]
     
     def PredictCategory(self, string):
