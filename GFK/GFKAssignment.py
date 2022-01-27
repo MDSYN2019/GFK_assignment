@@ -82,6 +82,10 @@ class GFKTaskMLModelGenerator():
         """
         Description: 
         -----------
+
+        Tokenizes the feature columns, removes single letter characters and retains
+        the alphanumeric characters
+
         """
         self._ProductLabelEncoder = LabelEncoder() # LabelEnocoder - will need later to inverse label change
         df = pd.read_csv(self._InputCSV, sep= ';') # data is semicolon separated
