@@ -15,6 +15,9 @@ from flask import Flask, request, redirect, url_for, flash,jsonify
 from werkzeug.utils import secure_filename
 from flask import Flask
 
+import nltk
+nltk.download('punkt')
+
 # Import the ML model class 
 from GFK.GFKAssignment import GFKTaskMLModelGenerator
 
